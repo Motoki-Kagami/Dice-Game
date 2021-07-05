@@ -15,5 +15,6 @@ int main(){
   printf("Dice2: %d \n",d2);
   printf("Total value: %d \n",d1+d2);
 
+  
   return 0;
 }
