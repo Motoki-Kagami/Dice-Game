@@ -19,6 +19,10 @@ int main(){
   printf("Dice2: %d \n",d2);
   printf("Total value: %d \n",d1+d2);
 
+  if(d1+d2>7)
+    printf("You won!");
+  else
+    printf("You lost");
   
   return 0;
 }
