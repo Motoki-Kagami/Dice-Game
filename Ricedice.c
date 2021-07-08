@@ -11,6 +11,8 @@ int main(){
   d1=rand()%6+1;
   d2=rand()%6+1;
 
+
+  
   printf("What is your name?\n>");
   scanf(" %s",name);
   printf("Hello, %s!\n",name); 
